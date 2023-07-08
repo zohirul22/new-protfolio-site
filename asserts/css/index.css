@@ -121,3 +121,38 @@ margin: 10px;
 }
 
 /* work css end */
+
+/* membership css start */
+.membership{
+  background-color: aliceblue;
+}
+.member-title{
+  padding-top: 100px;
+  padding-bottom: 40px;
+ 
+  
+}
+.member-title h1{
+  font-size: 50px;
+  font-weight: bolder;
+  
+  
+}
+.member-title p{
+ 
+  
+}
+.single-member-card{
+  border: 1px solid black;
+  padding: 20px;
+  transition: .4s;
+  width: 350px;
+  height: 320px;
+  margin: 10px;
+
+}
+.single-member-card:hover{
+  color: #fff;
+  background-color: black;
+}
+/* membership css end */
