@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@200;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+button {
+  padding: 15px 30px;
+  color: #fff;
+  background-color: black;
+  border: 1px solid gainsboro;
+}
+
+.book-button {
+  background-image: linear-gradient(to right, rgb(255, 0, 255), rgb(250, 35, 7));
+  border: none;
+
+}
+
+.hover-btn {
+  padding: 5px 15px;
+  color: #fff;
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+
+/* banner css start*/
+.banner {
+  color: #fff;
+  background-color: black;
+}
+
+.banner-title {
+  margin-top: 140px;
+}
+
+.brand-title h2 {
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.spacial {
+  color: rgb(250, 35, 7);
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 50px;
+  margin-top: 80px;
+}
+
+
+/* banner css end */
+
+/* portfolio css start */
+.portfolio-section{
+ background-color: beige;
+  padding: 100px 0px;
+}
+.prot-title{
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+ 
+}
+.prot-para{
+  font-size: 14px;
+  margin-bottom: 60px;
+
+}
+.single-protfolia {
+  position: relative;
+margin: 10px;
+
+}
+
+
+.protfolia-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background-color: black;
+  cursor: pointer;
+  color: #fff;
+}
+
+.hover-title {
+  margin-bottom: 100px;
+}
+
+.protfolia-hover a {
+  padding-bottom: 100px;
+  color: #fff;
+}
+
+.single-protfolia:hover .protfolia-hover {
+  opacity: .8;
+}
+
+/* portfolio css start */
