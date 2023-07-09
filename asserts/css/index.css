@@ -145,7 +145,7 @@ button {
 
 }
 
-.member-title p {}
+
 
 .single-member-card {
   border: 1px solid black;
@@ -266,26 +266,28 @@ button {
 
 /* testimonials css end */
 
- /* Resources css start */
+/* Resources css start */
 
- .Resources{
+.Resources {
   background-color: black;
   color: #fff;
   padding: 100px 0px;
- }
+}
 
- .single-resources{
+.single-resources {
   border: 1px solid rgb(58, 56, 56);
   padding-top: 10px;
   padding-bottom: 80px;
   padding-left: 10px;
   transition: .3s;
   margin: 10px;
- }
- .single-resources:hover{
- border: 1px solid gainsboro;
- }
-.single-btn{
+}
+
+.single-resources:hover {
+  border: 1px solid gainsboro;
+}
+
+.single-btn {
   font-size: 14px;
   color: #fff;
   text-transform: uppercase;
@@ -296,16 +298,109 @@ button {
   margin-top: 60px;
   transition: .2s;
 }
-.single-btn  .bx{
+
+.single-btn .bx {
   margin-left: 10px;
 }
 
-.single-btn:hover{
+.single-btn:hover {
   background-color: rgb(20, 66, 134);
   color: #fff;
   padding: 10px 20px;
- 
+
 }
 
 
- /* Resources css start */
+/* Resources css start */
+/* footer-nav css start */
+.footer-nav{
+  background-color: black;
+  padding: 50px 0px;
+  color: #fff;
+}
+
+.footer-nav-padding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu ul{
+margin-left: 0;
+}
+.footer-menu ul li{
+display: inline-block;
+margin-left: 50px;
+list-style: none;
+}
+
+.footer-menu ul li a{
+text-decoration: none;
+color: #fff;
+}
+
+.footer-menu a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+ .footer-menu a:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+}
+
+/* Presentational styles */
+ .footer-menu a {
+  color: #54b3d6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+
+/* footer-nav css end */
+
+/* footer css start */
+.footer{
+  background-color: black;
+  color: #fff;
+}
+
+.fa-brands{
+  padding: 10px;
+  background-color: none;
+  border: 1px solid gainsboro;
+  border-radius: 50%;}
+
+  .fa-brands:hover{
+background-color:orangered ;
+  }
+/* footer css end */
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+
+
+.footer{
+  text-align: center;
+}
+  .footer-menu{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .footer-menu ul li{
+    display: block;
+    text-align: justify;
+    
+    }
+}
