@@ -229,9 +229,6 @@ button {
 
 .white-img {
   color: black;
-  /* margin-left: 100px; */
-
-
 }
 
 .single-testimonials i {
@@ -268,3 +265,47 @@ button {
 
 
 /* testimonials css end */
+
+ /* Resources css start */
+
+ .Resources{
+  background-color: black;
+  color: #fff;
+  padding: 100px 0px;
+ }
+
+ .single-resources{
+  border: 1px solid rgb(58, 56, 56);
+  padding-top: 10px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  transition: .3s;
+  margin: 10px;
+ }
+ .single-resources:hover{
+ border: 1px solid gainsboro;
+ }
+.single-btn{
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0px;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-top: 60px;
+  transition: .2s;
+}
+.single-btn  .bx{
+  margin-left: 10px;
+}
+
+.single-btn:hover{
+  background-color: rgb(20, 66, 134);
+  color: #fff;
+  padding: 10px 20px;
+ 
+}
+
+
+ /* Resources css start */
