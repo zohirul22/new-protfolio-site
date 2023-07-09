@@ -58,24 +58,27 @@ button {
 /* banner css end */
 
 /* portfolio css start */
-.portfolio-section{
- background-color: beige;
+.portfolio-section {
+  background-color: beige;
   padding: 100px 0px;
 }
-.prot-title{
+
+.prot-title {
   font-size: 50px;
   font-weight: bolder;
   margin-bottom: 20px;
- 
+
 }
-.prot-para{
+
+.prot-para {
   font-size: 14px;
   margin-bottom: 60px;
 
 }
+
 .single-protfolia {
   position: relative;
-margin: 10px;
+  margin: 10px;
 
 }
 
@@ -109,11 +112,12 @@ margin: 10px;
 /* portfolio css start */
 
 /* work css start */
-.work-section{
+.work-section {
   background-color: black;
   color: #fff;
 }
-.single-card-work{
+
+.single-card-work {
   border: 1px solid rgb(78, 77, 77);
   padding: 40px;
   margin: 10px;
@@ -123,26 +127,27 @@ margin: 10px;
 /* work css end */
 
 /* membership css start */
-.membership{
+.membership {
   background-color: aliceblue;
 }
-.member-title{
+
+.member-title {
   padding-top: 100px;
   padding-bottom: 40px;
- 
-  
+
+
 }
-.member-title h1{
+
+.member-title h1 {
   font-size: 50px;
   font-weight: bolder;
-  
-  
+
+
 }
-.member-title p{
- 
-  
-}
-.single-member-card{
+
+.member-title p {}
+
+.single-member-card {
   border: 1px solid black;
   padding: 20px;
   transition: .4s;
@@ -151,8 +156,115 @@ margin: 10px;
   margin: 10px;
 
 }
-.single-member-card:hover{
+
+.single-member-card:hover {
   color: #fff;
   background-color: black;
 }
+
 /* membership css end */
+
+/* services css start */
+.services {
+  background-color: black;
+  color: #fff;
+  padding: 100px 0px;
+}
+
+.single-service {
+  color: #fff;
+  padding: 20px;
+}
+
+.single-service h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.single-service p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.single-service:hover {
+  background-color: rgba(54, 16, 16, 0.356);
+}
+
+/* services css end */
+
+/* testimonials css start */
+
+.test-title {}
+
+.testimonials {
+  background-color: black;
+  color: #fff;
+}
+
+.single-testimonials {
+  border: 1px solid gray;
+  padding: 20px;
+  position: relative;
+}
+
+.single-testimonials::after {
+  content: ' ';
+  position: absolute;
+  top: 357px;
+  left: 21px;
+  height: 3px;
+  width: 35%;
+  background-color: #fff;
+}
+
+.single-testimonials:hover {
+  background-color: rgba(54, 16, 16, 0.356);
+}
+
+.single-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.white-img {
+  color: black;
+  /* margin-left: 100px; */
+
+
+}
+
+.single-testimonials i {
+  color: rgb(255, 238, 0);
+  margin-top: 30px;
+}
+
+
+.testimonils-padding {
+  margin-top: 20px;
+}
+
+
+.testimonils-padding .owl-nav {
+  position: absolute;
+  top: -68px;
+  right: 39px;
+  bottom: 0;
+}
+
+
+.testimonils-padding .owl-nav button i {
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  text-align: center;
+  line-height: 47px;
+  margin-right: 5px;
+  border-radius: 5px;
+  transition: .3s;
+  border: 1px solid gainsboro;
+}
+
+
+/* testimonials css end */
