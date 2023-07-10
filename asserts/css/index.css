@@ -153,24 +153,28 @@ header {
 
 
 /* work css start */
-.work-section {
+.work-section{
   background-color: black;
   color: #fff;
 }
-
-.single-card-work {
-  border: 1px solid rgb(78, 77, 77);
-  padding: 40px;
-  margin: 10px;
+.work-single-card {
+  background-color: black;
+  color: #fff;
+  border: 1px solid gainsboro;
 }
 
 /* work css end */
 
 /* membership css start */
+
+
 .membership {
   background-color: aliceblue;
+  padding: 50px 0px;
 }
-
+.member-single-card{
+  background-color: #fff;
+}
 .member-title {
   padding-top: 100px;
   padding-bottom: 40px;
@@ -187,7 +191,7 @@ header {
   transition: .4s;
   width: 350px;
   height: 320px;
-  margin: 10px;
+ 
 }
 
 .single-member-card:hover {
@@ -264,7 +268,7 @@ header {
 .single-testimonials::after {
   content: ' ';
   position: absolute;
-  top: 335px;
+  top: 310px;
   left: 21px;
   height: 3px;
   width: 35%;
