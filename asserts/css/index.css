@@ -3,10 +3,8 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-family: 'Poppins', sans-serif;
+
 }
-
-
 
 button {
   padding: 15px 30px;
@@ -28,10 +26,54 @@ button {
   border: 1px solid orangered;
 }
 
+/* header css start */
+.header-section {
+  background-color: black;
+}
+
+header {
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+}
+
+.navbar a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: #fff;
+  transition: all .45s ease;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: blueviolet;
+}
+
+#menu-icon {
+  font-size: 30px;
+  z-index: 10001;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+/* header css end */
+
+
 /* banner css start*/
 .banner {
   color: #fff;
   background-color: black;
+  padding-top: 150px;
 }
 
 .banner-title {
@@ -53,7 +95,6 @@ button {
   grid-gap: 50px;
   margin-top: 80px;
 }
-
 
 /* banner css end */
 
@@ -81,7 +122,6 @@ button {
   margin: 10px;
 
 }
-
 
 .protfolia-hover {
   position: absolute;
@@ -111,6 +151,7 @@ button {
 
 /* portfolio css start */
 
+
 /* work css start */
 .work-section {
   background-color: black;
@@ -121,7 +162,6 @@ button {
   border: 1px solid rgb(78, 77, 77);
   padding: 40px;
   margin: 10px;
-
 }
 
 /* work css end */
@@ -134,18 +174,12 @@ button {
 .member-title {
   padding-top: 100px;
   padding-bottom: 40px;
-
-
 }
 
 .member-title h1 {
   font-size: 50px;
   font-weight: bolder;
-
-
 }
-
-
 
 .single-member-card {
   border: 1px solid black;
@@ -154,7 +188,6 @@ button {
   width: 350px;
   height: 320px;
   margin: 10px;
-
 }
 
 .single-member-card:hover {
@@ -163,6 +196,30 @@ button {
 }
 
 /* membership css end */
+
+/* collapse2 css start */
+.collapse-padding {
+  margin: 50px 0px;
+}
+
+.collapse2-title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.collapse2 {
+  background-color: black;
+  color: black;
+  padding: 20px;
+
+}
+
+.collapse-img {
+  height: 470px;
+  border: 1px solid ghostwhite;
+}
+
+/* collapse2 css end */
 
 /* services css start */
 .services {
@@ -193,9 +250,6 @@ button {
 /* services css end */
 
 /* testimonials css start */
-
-.test-title {}
-
 .testimonials {
   background-color: black;
   color: #fff;
@@ -210,7 +264,7 @@ button {
 .single-testimonials::after {
   content: ' ';
   position: absolute;
-  top: 357px;
+  top: 335px;
   left: 21px;
   height: 3px;
   width: 35%;
@@ -263,7 +317,6 @@ button {
   border: 1px solid gainsboro;
 }
 
-
 /* testimonials css end */
 
 /* Resources css start */
@@ -307,13 +360,12 @@ button {
   background-color: rgb(20, 66, 134);
   color: #fff;
   padding: 10px 20px;
-
 }
 
-
 /* Resources css start */
+
 /* footer-nav css start */
-.footer-nav{
+.footer-nav {
   background-color: black;
   padding: 50px 0px;
   color: #fff;
@@ -325,23 +377,25 @@ button {
   align-items: center;
 }
 
-.footer-menu{
+.footer-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer-menu ul{
-margin-left: 0;
-}
-.footer-menu ul li{
-display: inline-block;
-margin-left: 50px;
-list-style: none;
+
+.footer-menu ul {
+  margin-left: 0;
 }
 
-.footer-menu ul li a{
-text-decoration: none;
-color: #fff;
+.footer-menu ul li {
+  display: inline-block;
+  margin-left: 50px;
+  list-style: none;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer-menu a {
@@ -351,13 +405,15 @@ color: #fff;
   margin: 0 -.25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
- .footer-menu a:hover {
+
+.footer-menu a:hover {
   color: #fff;
-  box-shadow: inset 200px 0 0 0 #54b3d6;;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+  ;
 }
 
 /* Presentational styles */
- .footer-menu a {
+.footer-menu a {
   color: #54b3d6;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -366,41 +422,123 @@ color: #fff;
   text-decoration: none;
 }
 
-
 /* footer-nav css end */
 
 /* footer css start */
-.footer{
+.footer {
   background-color: black;
   color: #fff;
 }
 
-.fa-brands{
+.fa-brands {
   padding: 10px;
   background-color: none;
   border: 1px solid gainsboro;
-  border-radius: 50%;}
+  border-radius: 50%;
+}
 
-  .fa-brands:hover{
-background-color:orangered ;
-  }
+.fa-brands:hover {
+  background-color: orangered;
+}
+
 /* footer css end */
 
-/* responsive */
+
+/* navbar responsive */
+@media (max-width:1530px) {
+  header {
+    padding: 18px 3%;
+  }
+}
+
+@media (max-width:1070px) {
+  header {
+    padding: 12px 3%;
+
+    width: 90%;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    top: -800px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(34, 36, 36, 0.952);
+    transition: all .50s ease;
+    text-align: center;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 1rem;
+    margin: .8rem;
+    color: #fff;
+  }
+
+  .navbar.open {
+    top: 15%;
+  }
+}
+
+/* body responsive */
 @media only screen and (max-width: 600px) {
 
+  .banner {
+    padding-top: 0px;
+  }
 
-.footer{
-  text-align: center;
-}
-  .footer-menu{
+  .brand {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+
+  .single-member-card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .testimonils-padding .owl-nav button i {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 32px;
+
+  }
+
+  .single-testimonials::after {
+    content: ' ';
+    position: absolute;
+    top: 315px;
+    left: 21px;
+    height: 3px;
+    width: 35%;
+    background-color: #fff;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-menu {
     display: flex;
     flex-direction: row;
-  
+
   }
-  .footer-menu ul li{
+
+  .footer-menu ul li {
     display: block;
     text-align: justify;
-    
-    }
+
+  }
 }
